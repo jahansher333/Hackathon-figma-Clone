@@ -23,7 +23,7 @@ function SECTION1() {
     //     </div>
     // </main>
 
-    <section className="bg-gray-50 w-[1321px] min-h-screen flex justify-center items-center m-auto px-8 md:px-20 rounded-b-[48px] sm_max:w-[380px] sm_max:px-4">
+    <section className="bg-gray-50 w-[1321px] min-h-screen flex justify-center items-center m-auto px-8 md:px-20 rounded-b-[48px] sm_max:w-[350px] sm_max:px-4">
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto">
         {/* Text Section */}
         <div className="text-left flex flex-col gap-[15px] sm_max:gap-[2px] sm_max:mt-[10px]">
