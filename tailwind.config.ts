@@ -58,7 +58,7 @@ const config: Config = {
   		},
 
 		screens: {
-			sm_max: { max: '450px' },
+			sm_max: { max: '720px' },
 			md_max: { max: '768px' },
 			lg_max: { max: '1024px' },
 			xl_max: { max: '1440px' },	
