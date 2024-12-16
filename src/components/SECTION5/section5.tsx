@@ -3,8 +3,8 @@ import Image from "next/image";
 function SCEION5() {
   return (
     <div className="flex flex-col mt-[200px] justify-center items-center gap-[20px] ">
-       <div className="">
-        <p className="rotate-[-90deg] w-[648px]   font-inter font-normal  uppercase text-[#272343] relative   text-[20px] top-[40px] right-[180px] ">
+       <div className=" relative   top-[40px] right-[180px] ">
+        <p className="rotate-[-90deg] w-[648px]   font-inter font-normal  uppercase text-[#272343] text-[10px] ">
           Explore new and popular styles
         </p>
         </div>
