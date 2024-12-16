@@ -6,7 +6,7 @@ import { SiAmericanexpress } from "react-icons/si";
 import { FaCcVisa } from "react-icons/fa6";
 function FOOTER2() {
   return (
-    <main className="flex justify-around items-center border-y-[1px] border-[#E1E3E5] pb-[30px] sm_max:flex-col sm_max:gap-[30px]">
+    <main className="w-full flex justify-around items-center border-y-[1px] border-[#E1E3E5] flex-col gap-[30px]">
       <div>
         <p className="text-[14px] font-normal font-poppins text-[#9A9cAA]">
           @ 2021 - Blogy - Designed & Develop by{" "}

@@ -4,7 +4,7 @@ import Image from "next/image";
 function NAVBAR() {
   return (
     <main>
-      <div className="flex justify-around items-center bg-[#F0F2f3] w-screen h-[84px] text-[#272343] gap-[400px] sm_max:justify-around sm_max:items-center  sm_max:gap-[50px]">
+      <div className="flex justify-center items-center bg-[#F0F2f3] w-full h-[84px] text-[#272343] gap-[100px]">
         <div className="flex gap-[8px] justify-center items-center">
           <Image
             src="/images/Logo Icon.png"

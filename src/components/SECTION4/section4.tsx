@@ -27,22 +27,22 @@ const products: Product[] = [
 
 const FeaturedProducts = () => {
   return (
-    <main className="m-auto grid justify-center items-center gap-[20px] mt-[20px] sm_max:mt-[100px]">
+    <main className="m-auto grid justify-center items-center gap-[20px]  mt-[100px]">
       <h2 className="text-[32px] font-semi-bold leading-[32.2px]">
         Top categories
       </h2>
-      <div className="grid justify-center items-center sm_max:grid-rows-1">
-        <div className="grid grid-cols-3 justify-center items-center  gap-[50px] sm_max:grid-cols-1">
+      <div className="grid justify-center items-center">
+        <div className="grid grid-cols-1 justify-center items-center  gap-[50px]">
           {products.map((product) => (
             <div key={product.id} className="rounded-none">
               <Image
                 src={product.image}
                 alt={product.name}
-                width={424}
-                height={424}
-                className="sm_max:w-[220px] sm_max:h-[220px]"
+                width={220}
+                height={220}
+                className=""
               />
-              <div className="flex flex-col w-[424px] bg-[#000000] rounded-b-[10px] rounded-t-[-40px] p-[10px] gap-[8px] sm_max:w-[220px]  ">
+              <div className="flex flex-col w-[220px] bg-[#000000] rounded-b-[10px]  p-[10px] gap-[8px]  ">
                 <h3 className="text-[20px] leading-[22px] font-normal font-inter text-white">
                   {product.name}
                 </h3>

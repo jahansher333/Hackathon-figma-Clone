@@ -57,14 +57,7 @@ const config: Config = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
 
-		screens: {
-			sm_max: { max: '720px' },
-			md_max: { max: '768px' },
-			lg_max: { max: '1024px' },
-			xl_max: { max: '1440px' },	
-			two_xl_max: { max: '1867px' }
-			
-		}
+
 
 
   	}

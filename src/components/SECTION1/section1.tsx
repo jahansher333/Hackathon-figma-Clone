@@ -23,14 +23,14 @@ function SECTION1() {
     //     </div>
     // </main>
 
-    <section className="bg-gray-50 w-[1321px] min-h-screen flex justify-center items-center m-auto px-8 md:px-20 rounded-b-[48px] sm_max:w-[350px] sm_max:px-4">
-      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto">
+    <section className="bg-gray-50 w-[360px] h-full flex   m-auto  md:px-20 rounded-b-[48px] ">
+      <div className="flex flex-col md:flex-row items-center  w-[170px] max-w-7xl mx-auto mt-[30px]">
         {/* Text Section */}
-        <div className="text-left flex flex-col gap-[15px] sm_max:gap-[2px] sm_max:mt-[10px]">
+        <div className="text-left flex flex-col gap-[15px] ">
           <h3 className="text-[14px] font-normal text-gray-500 uppercase tracking-wide">
             Welcome to Chairy
           </h3>
-          <h1 className="w-[557px] text-[60px] font-bold text-gray-800  leading-[66px] sm_max:w-[300px] sm_max:text-[40px] sm_max:leading-[50px]">
+          <h1 className="w-[307px] text-[40px] font-bold text-gray-800  leading-[66px]">
             Best Furniture Collection  For Your Interior.
           </h1>
           <div>
@@ -46,9 +46,9 @@ function SECTION1() {
           <Image
             src="/images/Product Image.png" // Replace with your image path
             alt="Furniture Chair"
-            width={434}
-            height={584}
-            className="rounded-xl sm_max:w-[200px] sm_max:h-[200px]"
+            width={634}
+            height={684}
+            className="rounded-xl "
           />
         </div>
       </div>

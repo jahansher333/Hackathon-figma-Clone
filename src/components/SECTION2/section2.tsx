@@ -13,11 +13,11 @@ function SECTION2() {
   ];
 
   return (
-    <section className="bg-[#FFFFFF] w-[1321px] m-auto py-8 sm_max:w-[380px] ">
-      <div className="container mx-auto px-4 sm_max:justify-center sm_max:items-center sm_max:grid-cols-2">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6 items-center  sm_max:justify-center sm_max:items-center sm_max:grid-cols-2">
+    <section className="bg-[#FFFFFF]  m-auto py-8 ">
+      <div className="container mx-auto px-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-2 items-center">
           {logos.map((logo, index) => (
-            <div key={index} className="flex justify-center sm_max:justify-center sm_max:items-center sm_max:grid-cols-2">
+            <div key={index} className="flex justify-center">
               <Image
                 src={logo.src} // Ensure images are placed in the public/images folder
                 alt={logo.alt}
