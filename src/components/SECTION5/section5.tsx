@@ -9,7 +9,7 @@ function SCEION5() {
         </p>
         </div>
       <div className="flex justify-center items-center">
-        <div className="hidden relative top-[20px] bottom-[100px] right-[180px]">
+        <div className="hidden relative top-[20px] bottom-[200px] right-[180px]">
         <p className="rotate-[-90deg]   font-inter font-normal  uppercase text-[#272343]   text-[10px] ">
           Explore new and popular styles
         </p>
