@@ -11,7 +11,7 @@ import Link from "next/link";
 function FOOTER() {
   return (
     <main>
-      <div className="border-y-[1px] border-[#E1E3E5] text-[#272343]  flex flex-col justify-center items-center mt-[100px] pt-[40px] gap-[20px]">
+      <div className="w-full border-y-[1px] border-[#E1E3E5] text-[#272343]  flex flex-col justify-center items-center mt-[100px] pt-[40px] gap-[20px]">
         <div className="flex flex-col gap-[24px]">
           <div className="flex gap-[8px]">
             <Image
@@ -38,7 +38,7 @@ function FOOTER() {
             <FaYoutube />
           </div>
         </div>
-        <div className="flex gap-[30px]">
+        <div className="flex gap-[20px]">
         <div className="flex flex-col gap-[20px] list-none pt-[80px]">
           <h1 className="text-[14px] font-inter font-medium leading-[15.4px] text-[#9A9C99]">Category</h1>
 

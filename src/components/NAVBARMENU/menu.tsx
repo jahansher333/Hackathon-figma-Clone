@@ -4,7 +4,7 @@ import { FaBars } from "react-icons/fa";
 function MENU() {
   return (
     <main>
-      <div className="flex justify-center items-center w-full h-[74px] bg-[#FFFFFF] gap-[150px] border-b-[1px] border-[#E1E3E5]">
+      <div className="flex justify-center items-center w-full h-[74px] bg-[#FFFFFF] gap-[80px] border-b-[1px] border-[#E1E3E5] ">
         <div className="block sm:hidden">
           <li className="text-[14px] font-medium font-inter leading-[15.4px] list-none">
             <FaBars />

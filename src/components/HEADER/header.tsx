@@ -8,12 +8,12 @@ import Link from "next/link";
 function Header() {
   return (
     <main>
-      <div className="flex justify-center items-center bg-[#272343] w-full h-[45px] text-[#FFFFFF] gap-[100px] ">
+      <div className="flex justify-center items-center bg-[#272343] w-full max-w-full h-[45px] text-[#FFFFFF] gap-[80px] ">
         <div className="flex gap-[8px] justify-center">
           <span className="w-[10.67px] h-[7.33px]">
             <IoCheckmark />
           </span>
-        <p className="text-[12px] font-normal font-inter">
+        <p className="text-[8px] font-normal font-inter">
             Free shipping on all orders over $50
           </p>
         </div>

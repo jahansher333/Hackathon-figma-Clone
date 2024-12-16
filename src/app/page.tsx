@@ -15,7 +15,7 @@ import FOOTER2 from "@/components/FOOTER/footer2"
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full overflow-x-hidden">
       <HEADER />
       <NAVBAR />
       <MENU />

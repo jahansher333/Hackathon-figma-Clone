@@ -4,15 +4,15 @@ import Image from "next/image";
 function NAVBAR() {
   return (
     <main>
-      <div className="flex justify-center items-center bg-[#F0F2f3] w-full h-[84px] text-[#272343] gap-[100px]">
+      <div className="flex justify-center items-center bg-[#F0F2f3] w-full h-[84px] text-[#272343] gap-[80px]">
         <div className="flex gap-[8px] justify-center items-center">
           <Image
             src="/images/Logo Icon.png"
             alt="logo"
-            width={40}
-            height={40}
+            width={30}
+            height={30}
           />
-          <h1 className="text-[26px] font-medium font-inter leading-[31.2px]">
+          <h1 className="text-[16px] font-medium font-inter leading-[31.2px]">
             Comforty
           </h1>
         </div>
